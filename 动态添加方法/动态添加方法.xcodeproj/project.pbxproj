@@ -13,6 +13,7 @@
 		3B6822BF1E73FD11003E2196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6822BD1E73FD11003E2196 /* Main.storyboard */; };
 		3B6822C11E73FD11003E2196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6822C01E73FD11003E2196 /* Assets.xcassets */; };
 		3B6822C41E73FD11003E2196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6822C21E73FD11003E2196 /* LaunchScreen.storyboard */; };
+		3B6822CD1E740B04003E2196 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6822CC1E740B04003E2196 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3B6822C01E73FD11003E2196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B6822C31E73FD11003E2196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B6822C51E73FD11003E2196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6822CB1E740B04003E2196 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3B6822CC1E740B04003E2196 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				3B6822C21E73FD11003E2196 /* LaunchScreen.storyboard */,
 				3B6822C51E73FD11003E2196 /* Info.plist */,
 				3B6822B41E73FD11003E2196 /* Supporting Files */,
+				3B6822CB1E740B04003E2196 /* Person.h */,
+				3B6822CC1E740B04003E2196 /* Person.m */,
 			);
 			path = "动态添加方法";
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				3B6822BC1E73FD11003E2196 /* ViewController.m in Sources */,
 				3B6822B91E73FD11003E2196 /* AppDelegate.m in Sources */,
+				3B6822CD1E740B04003E2196 /* Person.m in Sources */,
 				3B6822B61E73FD11003E2196 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +313,7 @@
 				3B6822CA1E73FD11003E2196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
